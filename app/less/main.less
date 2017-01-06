@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "digital"; /* Имя шрифта */
+    src: url(../fonts/digital-7.ttf); /* Путь к файлу со шрифтом */
+    
+}
+
+
+
+body{
+    //margin-top: 20px;
+    padding: 0px;
+    background-image: url(../img/fon2.png) ;
+}
+
+
+
+.calc{  
+    background-color: rgba(159, 175, 160, 0.33);
+    border-radius: 30px;
+    //margin: 0px auto; // пр центру
+    margin: 15% 0;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid grey;
+    text-align: center;
+    
+    button {
+        border-radius: 6px;
+        outline: none;
+        font-size: 1.6em;
+        background: rgba(255, 254, 254, 0.94); 
+        width: 86px;
+        height: 75px;
+        margin: 2px;
+        &:hover{ 
+        background: rgba(255, 254, 254, 0.87);
+        }
+    }
+    #equal{
+        font-size: 2em;
+        width: 182px;
+        background: rgb(245, 154, 76);
+        &:hover{ 
+        background: #78acff;
+        }
+    }
+}
+
+.scoreboard{
+    margin-top: 10px;   //дивитися !!!
+    input{
+        border-radius: 0 0 10px 10px ;
+        text-align: right;
+        width: 98%;
+        border: 0px;
+        font-family:  "digital";
+        padding: 0px 10px;
+        font-size: 2.8em;
+        outline: none;
+        height: 40px;
+     }
+}
+// input scoreboard
+#top-bar {
+    font-size: 2.2em;
+    border-radius: 10px 10px 0 0;
+}
+
+.buttonBar {
+    margin-top: 10px;
+}
+
+.numberBar {
+    width: 280px;
+    float: left;
+}
+
+.operators {
+    width: 195px;
+    float: right;    
+}
+
+
+.adOperators {
+    margin-top: 10px;
+    text-align: left;
+}
+.adOperators button {
+    margin-left: 3.5px;
+    height: 50px;
+}
+
+.clear {
+    clear: left; 
+}
+
+@media screen and (max-width: 1280px) {
+  .calc{  
+    //margin: 0px auto; // пр центру
+    margin: 10% auto;
+    }
+}

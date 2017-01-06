@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calc</title>
+
+    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="calc">
+            <div class="scoreboard">
+                <input id="top-bar" type="text">
+                <input id="scoreboard" type="text">
+            </div>
+            
+            <div class="adOperators">
+                <button type="button" id="save" >M+</button>
+                <button type="button" id="del" >M-</button>
+                <button type="button" id="sign"> +/- </button>
+                <button type="button" id="backspace"> ← </button>
+                <button type="button" id="clean" >C</button>
+            </div>
+
+
+            <div class="buttonBar">
+
+
+
+                <div class="operators">
+                    <button type="button" id="pow" class="pow" value="²">х²</button>
+                    <button type="button" id="sqrt" class="sqrt" value="√">√</button>
+                    <button type="button" id="mult" class="mult" value="*">*</button>
+                    <button type="button" id="divide" class="divide" value="/">/</button>
+                    <button type="button" id="plus" class="plus" value="+">+</button>
+                    <button type="button" id="sub" class="sub" value="-">-</button>
+                    <button type="button" id="equal" class="equal" value="=">=</button>
+
+
+
+                </div>
+
+                <div class="numberBar">
+                    <button type="button" id="num7" class="number" value="7">7</button>
+                    <button type="button" id="num8" class="number" value="8">8</button>
+                    <button type="button" id="num9" class="number" value="9">9</button>
+                    <button type="button" id="num4" class="number" value="4">4</button>
+                    <button type="button" id="num5" class="number" value="5">5</button>
+                    <button type="button" id="num6" class="number" value="6">6</button>
+                    <button type="button" id="num1" class="number" value="1">1</button>
+                    <button type="button" id="num2" class="number" value="2">2</button>
+                    <button type="button" id="num3" class="number" value="3">3</button>
+                    <button type="button" id="perc" >%</button>
+                    <button type="button" id="num0" class="number" value="0">0</button>
+                    <button type="button" id="dot" value=".">.</button>
+                    
+                </div>
+                <div class="clear"></div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/libs.min.js"></script>
+    <!-- перше підрубаються бібліотеки -->
+    <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>
